@@ -7,11 +7,25 @@
 
 ## 项目分模块
 
+### AMR硬件
+
+[here](https://github.com/goldqiu/Unmanned-car-with-SLAM-and-Navigation/tree/main/Hardware)
+
+### AMR软件
+
+[here](https://github.com/goldqiu/Unmanned-car-with-SLAM-and-Navigation/tree/main/Software)
+
 
 
 ## 项目人员
 
 
 
-edited by goldqiu , 2022.03.29
+
+
+
+
+
+
+edited by goldqiu , 2022.04.10
 
