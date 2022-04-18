@@ -38,6 +38,7 @@ int main(int argc, char** argv)
      cloud_sub_ptr->ParseData(cloud_data_buff);//从封装好的点云话题接受类内取数据
      if(cloud_data_buff.size() > 0)
      {
+
        CloudData cloud_data = cloud_data_buff.front();  //存到buffer
 
        //发布实时三维点云
@@ -54,6 +55,7 @@ int main(int argc, char** argv)
        CloudData grid_cloud_data;
        pointcloud_3d_process_ptr->pointcloud_to_3dGridMap(cloud_data,grid_cloud_data);
        local_3d_grid_pub_ptr->Publish(grid_cloud_data.cloud_ptr);
+
 
        cloud_data_buff.pop_front();
      }

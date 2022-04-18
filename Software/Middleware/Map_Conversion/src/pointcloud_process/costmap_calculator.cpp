@@ -7,4 +7,6 @@
 namespace map_conversion {
 CostmapCalculator::CostmapCalculator(YAML::Node& config_node) {
 }
+
+
 }
