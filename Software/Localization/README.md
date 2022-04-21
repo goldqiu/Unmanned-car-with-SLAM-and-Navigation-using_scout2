@@ -8,4 +8,3 @@
 
 [goldqiu：二.全局定位--开源定位框架livox-relocalization实录数据集测试](https://zhuanlan.zhihu.com/p/496006244)
 
-#### 
